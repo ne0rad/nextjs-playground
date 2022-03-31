@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #ededed;
+    color: #333;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 #333;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 1rem;
+    transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #0070f3;
+}
+
+.navbar a:active {
+    color: #0070f3;
+}
+
+.navbar a:focus {
+    outline: none;
+}
