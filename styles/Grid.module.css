@@ -3,13 +3,14 @@
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    padding: 0 1rem;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     .grid {
       width: 100%;
       flex-direction: column;
+      align-items: center;
     }
   }
   
