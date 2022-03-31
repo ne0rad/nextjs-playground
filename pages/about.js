@@ -1,13 +1,14 @@
 import Title from "../components/Title";
-import Loading from "../components/Loading";
+import Text from "../components/Text";
 
 export default function About() {
 
     return (
         <>
             <Title>About</Title>
-            <h1 className="title">About page</h1>
-            <Loading />
+
+            <Text variant='title'>About Us</Text>
+            <Text>Made by ne0rad</Text>
         </>
     )
 }
