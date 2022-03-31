@@ -1,6 +1,4 @@
 {
-  "status": "ok",
-  "totalResults": 67,
   "articles": [
     {
       "source": { "id": "google-news", "name": "Google News" },
